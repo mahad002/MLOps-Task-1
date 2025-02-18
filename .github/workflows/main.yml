@@ -3,7 +3,7 @@ name: Vercel Production Deployment
 on:
   push:
     branches:
-      - main  # Trigger the workflow on push to 'main' branch
+      - main  
 
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
